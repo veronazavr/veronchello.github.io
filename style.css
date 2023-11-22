@@ -1,0 +1,94 @@
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    background-color: #a8bca8c5;
+}
+
+header {
+    background-color: #042929; /* цвет полосы флага России */
+    color: #fff;
+    text-align: center;
+    padding: 2em;
+}
+
+.image-container {
+    max-width: 14%; /* Сделаем изображение адаптивным к ширине */
+    height: auto;
+    border: 1px solid #333; /* Рамка толщиной 2 пикселя, черного цвета */
+    border-radius: 10px; /* Закругленные углы рамки */
+    margin: 10px 0; /* Отступы вокруг изображения */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для изображения */
+}
+
+nav {
+    background-color: #a9b8be;
+    padding: 2em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0f0d0d;
+    font-weight: bold;
+}
+
+.features {
+    background-color: #a8bca8c5;
+    color: #000000;
+    padding: 20px;
+}
+
+.features h2 {
+    color: #181515;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.features ul {
+    list-style-type: square;
+    margin-left: 0.5px;
+}
+
+.features li {
+    margin-bottom: 10px;
+    border: 1px solid #2f2d2d;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.feature-title {
+    background-color: #fff;
+    color: #4e0e09;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.feature-description {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    padding: 0px;
+}
+
+footer {
+    background-color: #1c1f1c;
+    color: #982929;
+    text-align: left;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
